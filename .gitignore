@@ -1,0 +1,23 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Python & Archive scripts
+__pycache__/
+*.pyc
+_archive_scripts/
+main.py
+empire_bot.db
+output/
+modules/
+recipe_harvest_engine.py
+requirements.txt
+/data/
+!src/data/
+*.sqlite
+*.db

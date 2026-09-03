@@ -1,0 +1,6 @@
+{
+  "name": "Maison Saadat — Haute Couture & AI Atelier",
+  "description": "سوپر استودیوی لوکس مد و زیبایی: آتلیه هوشمند مدل مو و چهره (Hair & Beauty Salon)، آتلیه پرو زنده لباس و کاتالوگ مدلینگ (Virtual Try-On)، و مشاور کمد کپسولی اشرافی.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

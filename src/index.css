@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0E0D0B;
+    color: #F3EFEA;
+    min-height: 100vh;
+    letter-spacing: -0.01em;
+  }
+
+  /* Dual Typography Pairing: High Fashion Editorial Serif for Headings */
+  h1, h2, h3, .font-serif-luxury {
+    font-family: 'Parastoo', 'Amiri', 'Playfair Display', 'Cormorant Garamond', 'Cinzel', serif;
+    letter-spacing: -0.015em;
+  }
+}
+
+/* Specific Typography Classes */
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-editorial {
+  font-family: 'Parastoo', 'Amiri', 'Cormorant Garamond', 'Playfair Display', serif;
+}
+
+.font-persian-serif {
+  font-family: 'Parastoo', 'Amiri', serif;
+}
+
+.font-modern-clean {
+  font-family: 'Vazirmatn', 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Typography Mode Themes */
+body.font-mode-editorial {
+  --heading-font: 'Parastoo', 'Amiri', 'Playfair Display', serif;
+  --body-font: 'Vazirmatn', 'Plus Jakarta Sans', sans-serif;
+}
+
+body.font-mode-editorial h1,
+body.font-mode-editorial h2,
+body.font-mode-editorial h3,
+body.font-mode-editorial h4,
+body.font-mode-editorial .title-luxury {
+  font-family: 'Parastoo', 'Amiri', 'Playfair Display', serif !important;
+  font-feature-settings: "ss01" on, "cv01" on;
+}
+
+body.font-mode-modern h1,
+body.font-mode-modern h2,
+body.font-mode-modern h3,
+body.font-mode-modern h4 {
+  font-family: 'Vazirmatn', 'Plus Jakarta Sans', sans-serif !important;
+}
+
+/* Luxury Subtle Texture & Gold Elements */
+.gold-glow {
+  box-shadow: 0 0 35px -5px rgba(197, 168, 128, 0.2);
+}
+
+.card-luxury {
+  background: #171513;
+  border: 1px solid rgba(197, 168, 128, 0.22);
+  box-shadow: 0 10px 35px -10px rgba(0, 0, 0, 0.5);
+}
+
+.card-luxury:hover {
+  border-color: rgba(230, 202, 158, 0.45);
+}
+
+.dark-luxury-card {
+  background: linear-gradient(145deg, #161412 0%, #100F0E 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+.badge-gold {
+  background: linear-gradient(135deg, #272118 0%, #1D1812 100%);
+  color: #E6CA9E;
+  border: 1px solid #5A4731;
+}
+
+.badge-dark-gold {
+  background: #25201A;
+  color: #E6CA9E;
+  border: 1px solid rgba(230, 202, 158, 0.35);
+}
